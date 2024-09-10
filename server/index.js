@@ -4,7 +4,6 @@ const app = express();
 // will serve static files from the publi folder
 const serveIndex = (req, res, next) => {
     res.sendFile(__dirname + '/index.html')
-
 }
 
 // will serve html content
